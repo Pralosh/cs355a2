@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <title>Gallery</title>
+    </head>
+
+    <body id="container">
+        <header>
+            <span>PRALOSH RAJBHANDARI</span>
+            <span>DATE CREATED: 1/31/2023</span>
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="page2.html">SOCIAL</a>
+            <a href="page3.html">GALLERY</a>
+        </nav>
+
+        <main>
+            <div class="carousel">
+                <div class="buttons">
+                    <button role="button" id="prev-btn" aria-label="previous" class="button" onclick="changeSlide(1)">
+                        <img src="images/previous.png" alt="">
+                    </button>
+                    <button role="button" id="next-btn" aria-label="next" class="button" onclick="changeSlide(2)">
+                        <img src="images/next.png" alt="">
+                    </button>
+                </div>
+
+                <div class="slides">
+                    <figure class="active">
+                        <img src="images/slide1.jpg" alt="canyon">
+                    </figure>
+    
+                    <figure class="active">
+                        <img src="images/slide2.png" alt="fireman">
+                    </figure>
+    
+                    <figure class="active">
+                        <img src="images/slide3.jpg" alt="black and white">
+                    </figure>
+    
+                    <figure class="active">
+                        <img src="images/slide4.jpg" alt="lights">
+                    </figure>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy Pralosh Rajbhandari</p>
+        </footer>
+    </body>
+
+    <script src="script3.js"></script>
+</html>

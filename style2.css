@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: rgb(2, 71, 148);
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header span {
+    margin: 10px 30px 10px 30px;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 11px;
+    border-style: dashed;
+    padding: 2px 5px;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    margin: 50px 0px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-style: solid;
+}
+
+main {
+    text-align: center;
+}
+
+#welcome {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    margin: 100px 0px;
+    text-shadow: 3px 2px black;
+}
+
+.socialLinks {
+    margin: 0px 450px;
+    margin-bottom: 100px;
+    padding: 30px 0px;
+    border-radius: 80px;
+    border-style: none;
+    background-color: white;
+}
+
+.socialLinks figure {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.socialLinks figure img {
+    width: 100px;
+}
+
+.jumpto {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 25px;
+    background-color: rgb(255, 203, 5);
+    font-family: "Audiowide", sans-serif;
+}
+
+.jumpto img {
+    width: 10px;
+}

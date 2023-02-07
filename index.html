@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <title>Home Page</title>
+    </head>
+
+    <body id="container">
+        <header>
+            <span>PRALOSH RAJBHANDARI</span>
+            <span>DATE CREATED: 1/31/2023</span>
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="page2.html">SOCIAL</a>
+            <a href="page3.html">GALLERY</a>
+        </nav>
+
+        <main>
+            <h1 id="welcome">Welcome To My Home Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.</p>
+            <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis velit iusto iure, dolore numquam temporibus perspiciatis harum impedit, vitae enim ab? Ratione optio velit corrupti incidunt magni sapiente dolores alias.</p>
+            <div id="images">
+                <figure>
+                    <img src="images/audi.jpg" alt="Audi R8" onmouseover="swap(1, this)" onmouseout="swap(11, this)">
+                    <figcaption>Audi R8</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bmw.jpg" alt="BMW M3" onmouseover="swap(2, this)" onmouseout="swap(22, this)">
+                    <figcaption>BMW M3</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/merc.jpg" alt="MERCEDES GT" onmouseover="swap(3, this)" onmouseout="swap(33, this)">
+                    <figcaption>Mercedes GT</figcaption>
+                </figure>
+            </div>
+        </main>
+
+        <footer>
+            <button id="motivation" onclick="message()" role="button" aria-label="motivation">
+                    Motivation
+            </button>
+            <button id="changeBackground" onclick="changeColor()" role="button" aria-label="Change background color">
+                    New Color
+            </button>
+            <button id="originalBackground" onclick="oldColor()" role="button" aria-label="Back to original color">
+                Original Color
+            </button>
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(101, 157, 189, 1);
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header span {
+    margin: 10px 30px 10px 30px;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 11px;
+    border-style: dashed;
+    padding: 2px 5px;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    margin: 50px 0px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-style: solid;
+}
+
+main {
+    width: 1200px;
+}
+
+.carousel {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    height: 450px;
+    width: 1200px;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 2;
+    top: 35vh;
+}
+
+.button {
+    margin: 0px;
+    border: none;
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(248, 248, 248, 0.651);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 65px;
+}
+
+#next-btn {
+    left: 1195px;
+}
+
+.button img {
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+}
+
+.slides {
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    left: 5vh; 
+}
+
+.slides figure {
+    margin: 0px;
+    padding: 0px 0px 80px 0px;
+    position: absolute;
+}
+
+.slides figure img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;    
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    font-family: "Audiowide", sans-serif;
+}
+
